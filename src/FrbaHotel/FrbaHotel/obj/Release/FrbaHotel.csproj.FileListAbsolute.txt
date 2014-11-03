@@ -1,0 +1,15 @@
+C:\Users\Facu\Documents\Facultad\Gestion de Datos\TP Hotel Frba 1.0 - 2C 2014\Aplicacion Desktop\FrbaHotel\FrbaHotel\bin\Release\FrbaHotel.exe
+C:\Users\Facu\Documents\Facultad\Gestion de Datos\TP Hotel Frba 1.0 - 2C 2014\Aplicacion Desktop\FrbaHotel\FrbaHotel\bin\Release\FrbaHotel.pdb
+C:\Users\Facu\Documents\Facultad\Gestion de Datos\TP Hotel Frba 1.0 - 2C 2014\Aplicacion Desktop\FrbaHotel\FrbaHotel\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Facu\Documents\Facultad\Gestion de Datos\TP Hotel Frba 1.0 - 2C 2014\Aplicacion Desktop\FrbaHotel\FrbaHotel\obj\Release\FrbaHotel.Form1.resources
+C:\Users\Facu\Documents\Facultad\Gestion de Datos\TP Hotel Frba 1.0 - 2C 2014\Aplicacion Desktop\FrbaHotel\FrbaHotel\obj\Release\FrbaHotel.Properties.Resources.resources
+C:\Users\Facu\Documents\Facultad\Gestion de Datos\TP Hotel Frba 1.0 - 2C 2014\Aplicacion Desktop\FrbaHotel\FrbaHotel\obj\Release\FrbaHotel.csproj.GenerateResource.Cache
+C:\Users\Facu\Documents\Facultad\Gestion de Datos\TP Hotel Frba 1.0 - 2C 2014\Aplicacion Desktop\FrbaHotel\FrbaHotel\obj\Release\FrbaHotel.exe
+C:\Users\Facu\Documents\Facultad\Gestion de Datos\TP Hotel Frba 1.0 - 2C 2014\Aplicacion Desktop\FrbaHotel\FrbaHotel\obj\Release\FrbaHotel.pdb
+C:\Users\Facu\Documents\Facultad\Gestion de Datos\TP Hotel Frba 1.0 - 2C 2014\Aplicacion Desktop\FrbaHotel\FrbaHotel\obj\Release\FrbaHotel.Login.LoginForm.resources
+C:\Users\Facu\Documents\Facultad\Gestion de Datos\TP Hotel Frba 1.0 - 2C 2014\Aplicacion Desktop\FrbaHotel\FrbaHotel\bin\Release\FrbaHotel.exe.config
+C:\Users\Facu\Documents\Facultad\Gestion de Datos\TP Hotel Frba 1.0 - 2C 2014\Aplicacion Desktop\FrbaHotel\FrbaHotel\bin\Release\FrbaHotel.Model.exe
+C:\Users\Facu\Documents\Facultad\Gestion de Datos\TP Hotel Frba 1.0 - 2C 2014\Aplicacion Desktop\FrbaHotel\FrbaHotel\bin\Release\FrbaHotel.Model.pdb
+C:\Users\Facu\Documents\Facultad\Gestion de Datos\TP Hotel Frba 1.0 - 2C 2014\Aplicacion Desktop\FrbaHotel\FrbaHotel\obj\Release\FrbaHotel.ABM_de_Rol.AltaForm.resources
+C:\Users\Facu\Documents\Facultad\Gestion de Datos\TP Hotel Frba 1.0 - 2C 2014\Aplicacion Desktop\FrbaHotel\FrbaHotel\obj\Release\FrbaHotel.ABM_de_Rol.MenuForm.resources
+C:\Users\Facu\Documents\Facultad\Gestion de Datos\TP Hotel Frba 1.0 - 2C 2014\Aplicacion Desktop\FrbaHotel\FrbaHotel\obj\Release\FrbaHotel.ABM_de_Rol.ModificacionForm.resources

@@ -1,0 +1,7 @@
+C:\Users\Facu\Documents\Facultad\Gestion de Datos\TP Hotel Frba 1.0 - 2C 2014\Aplicacion Desktop\FrbaHotel\FrbaHotel.Model\bin\Release\FrbaHotel.Model.exe
+C:\Users\Facu\Documents\Facultad\Gestion de Datos\TP Hotel Frba 1.0 - 2C 2014\Aplicacion Desktop\FrbaHotel\FrbaHotel.Model\bin\Release\FrbaHotel.Model.pdb
+C:\Users\Facu\Documents\Facultad\Gestion de Datos\TP Hotel Frba 1.0 - 2C 2014\Aplicacion Desktop\FrbaHotel\FrbaHotel.Model\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Facu\Documents\Facultad\Gestion de Datos\TP Hotel Frba 1.0 - 2C 2014\Aplicacion Desktop\FrbaHotel\FrbaHotel.Model\obj\Release\FrbaHotel.Model.Properties.Resources.resources
+C:\Users\Facu\Documents\Facultad\Gestion de Datos\TP Hotel Frba 1.0 - 2C 2014\Aplicacion Desktop\FrbaHotel\FrbaHotel.Model\obj\Release\FrbaHotel.Model.csproj.GenerateResource.Cache
+C:\Users\Facu\Documents\Facultad\Gestion de Datos\TP Hotel Frba 1.0 - 2C 2014\Aplicacion Desktop\FrbaHotel\FrbaHotel.Model\obj\Release\FrbaHotel.Model.exe
+C:\Users\Facu\Documents\Facultad\Gestion de Datos\TP Hotel Frba 1.0 - 2C 2014\Aplicacion Desktop\FrbaHotel\FrbaHotel.Model\obj\Release\FrbaHotel.Model.pdb

@@ -107,6 +107,42 @@ namespace FrbaHotel.Model
             }
         }
 
+        public static List<Rol> obtenerTodosComoLista()
+        {
+            List<Rol> roles = new List<Rol>();
+            SqlConnection dbConn = new SqlConnection(ConfigurationManager.ConnectionStrings["StringConexion"].ConnectionString);
+            try
+            {
+
+                dbConn.Open();
+                //Armo la query
+                SqlCommand cmd = new SqlCommand(@"SELECT *
+                                                FROM No_La_Recurso.Roles", dbConn);
+
+                //Ejecuto la query
+                SqlDataReader dr = cmd.ExecuteReader();
+                if (dr.HasRows)
+                {
+                    while (dr.Read())
+                    {
+                        var nuevoRol = new Rol((int)dr["id"], (string)dr["nombre"], (bool)dr["activo"]);
+                        nuevoRol.funcionalidades = Funcionalidad.buscarFuncionalidadesPorRol(nuevoRol.id);
+                        roles.Add(nuevoRol);
+                    }
+                }
+                dr.Close();
+                return roles;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+            finally
+            {
+                dbConn.Close();
+            }
+        }
+
         public void eliminar()
         {
             this.activo = false;

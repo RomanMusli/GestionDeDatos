@@ -21,15 +21,13 @@ namespace FrbaHotel.Login
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Usuario: " + this.txtUsuario.Text + "Password: " + this.txtPassword.Text);
             //Intento Loguearme
             Usuario usuarioALoguear = Usuario.CheckUsuarioYPassword(this.txtUsuario.Text, this.txtPassword.Text);
             if (usuarioALoguear != null){
                 if(usuarioALoguear.activo){
                     this.accederMostrarRoles(usuarioALoguear);
                 }else {
-                    usuarioALoguear.resetarIntentos();
-                    this.accederMostrarRoles(usuarioALoguear);
+                    MessageBox.Show("Usted se encuentra inhabilitado");
                 }
             }
             else {
@@ -43,6 +41,8 @@ namespace FrbaHotel.Login
         private void accederMostrarRoles(Usuario usuarioALoguear)
         {
             List<Rol> rolesHabilitados = new List<Rol>();
+            usuarioALoguear.resetarIntentos();
+            InformacionLogin.UsuarioDeSesion = usuarioALoguear;
             foreach( Rol rol in usuarioALoguear.roles){
                 if(rol.activo){
                     rolesHabilitados.Add(rol);
@@ -60,23 +60,28 @@ namespace FrbaHotel.Login
             else if (rolesHabilitados.Count < 1)
             {
                 //entrar con guest
-                //this.accederConRol('Guest'); o id
+                this.accederConRol("Guest");
             }
             else
             {
                 //Si tiene un solo rol ==> entra directamente al sistema poniendo la cantidad de intentos en cero
-                //this.accederConRol(usuarioALoguear.roles.Take(1).nombre); o id
+                this.accederConRol(usuarioALoguear.roles[0].nombre);
             }
         }
 
-        private void LoginForm_Load(object sender, EventArgs e)
+        private void accederConRol(string rol)
         {
-
+            new MenuFuncionalidadesForm(rol).ShowDialog();
         }
 
-        private void cbRoles_SelectedIndexChanged(object sender, EventArgs e)
+        private void btnEntrar_Click(object sender, EventArgs e)
         {
-            //this.accederConRol(cbRoles.SelectedItem); o id
+            this.accederConRol(cbRoles.SelectedItem.ToString());
+        }
+
+        private void btnGuest_Click(object sender, EventArgs e)
+        {
+            this.accederConRol("Guest");
         }
 
     }

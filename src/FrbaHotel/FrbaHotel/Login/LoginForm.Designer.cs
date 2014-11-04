@@ -37,6 +37,7 @@
             this.cbRoles = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.pnlRoles = new System.Windows.Forms.Panel();
+            this.btnEntrar = new System.Windows.Forms.Button();
             this.pnlRoles.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -81,25 +82,25 @@
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(100, 20);
             this.txtPassword.TabIndex = 4;
+            this.txtPassword.UseSystemPasswordChar = true;
             // 
             // btnGuest
             // 
-            this.btnGuest.Location = new System.Drawing.Point(33, 180);
+            this.btnGuest.Location = new System.Drawing.Point(33, 211);
             this.btnGuest.Name = "btnGuest";
             this.btnGuest.Size = new System.Drawing.Size(177, 26);
             this.btnGuest.TabIndex = 5;
             this.btnGuest.Text = "Entrar como invitado";
             this.btnGuest.UseVisualStyleBackColor = true;
+            this.btnGuest.Click += new System.EventHandler(this.btnGuest_Click);
             // 
             // cbRoles
             // 
-            this.cbRoles.Enabled = false;
             this.cbRoles.FormattingEnabled = true;
             this.cbRoles.Location = new System.Drawing.Point(56, 10);
             this.cbRoles.Name = "cbRoles";
             this.cbRoles.Size = new System.Drawing.Size(121, 21);
             this.cbRoles.TabIndex = 6;
-            this.cbRoles.SelectedIndexChanged += new System.EventHandler(this.cbRoles_SelectedIndexChanged);
             // 
             // label3
             // 
@@ -112,19 +113,30 @@
             // 
             // pnlRoles
             // 
+            this.pnlRoles.Controls.Add(this.btnEntrar);
             this.pnlRoles.Controls.Add(this.cbRoles);
             this.pnlRoles.Controls.Add(this.label3);
             this.pnlRoles.Location = new System.Drawing.Point(33, 122);
             this.pnlRoles.Name = "pnlRoles";
-            this.pnlRoles.Size = new System.Drawing.Size(198, 40);
+            this.pnlRoles.Size = new System.Drawing.Size(177, 83);
             this.pnlRoles.TabIndex = 8;
             this.pnlRoles.Visible = false;
+            // 
+            // btnEntrar
+            // 
+            this.btnEntrar.Location = new System.Drawing.Point(99, 47);
+            this.btnEntrar.Name = "btnEntrar";
+            this.btnEntrar.Size = new System.Drawing.Size(75, 23);
+            this.btnEntrar.TabIndex = 8;
+            this.btnEntrar.Text = "Entrar";
+            this.btnEntrar.UseVisualStyleBackColor = true;
+            this.btnEntrar.Click += new System.EventHandler(this.btnEntrar_Click);
             // 
             // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(264, 257);
+            this.ClientSize = new System.Drawing.Size(327, 290);
             this.Controls.Add(this.pnlRoles);
             this.Controls.Add(this.btnGuest);
             this.Controls.Add(this.txtPassword);
@@ -134,7 +146,6 @@
             this.Controls.Add(this.btnLogin);
             this.Name = "LoginForm";
             this.Text = "Ingresar";
-            this.Load += new System.EventHandler(this.LoginForm_Load);
             this.pnlRoles.ResumeLayout(false);
             this.pnlRoles.PerformLayout();
             this.ResumeLayout(false);
@@ -153,5 +164,6 @@
         private System.Windows.Forms.ComboBox cbRoles;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel pnlRoles;
+        private System.Windows.Forms.Button btnEntrar;
     }
 }

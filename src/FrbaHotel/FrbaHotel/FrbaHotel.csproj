@@ -102,11 +102,17 @@
     <Compile Include="ABM de Rol\MenuForm.Designer.cs">
       <DependentUpon>MenuForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="ABM de Usuario\Form1.cs">
+    <Compile Include="ABM de Usuario\MenuForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ABM de Usuario\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="ABM de Usuario\MenuForm.Designer.cs">
+      <DependentUpon>MenuForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ABM de Usuario\AltaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABM de Usuario\AltaForm.Designer.cs">
+      <DependentUpon>AltaForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Cancelar Reserva\Form1.cs">
       <SubType>Form</SubType>
@@ -114,11 +120,11 @@
     <Compile Include="Cancelar Reserva\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="MenuFuncionalidadesForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="MenuFuncionalidadesForm.Designer.cs">
+      <DependentUpon>MenuFuncionalidadesForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Generar Modificar Reserva\Form1.cs">
       <SubType>Form</SubType>
@@ -150,8 +156,14 @@
     <EmbeddedResource Include="ABM de Rol\MenuForm.resx">
       <DependentUpon>MenuForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="ABM de Usuario\MenuForm.resx">
+      <DependentUpon>MenuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABM de Usuario\AltaForm.resx">
+      <DependentUpon>AltaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuFuncionalidadesForm.resx">
+      <DependentUpon>MenuFuncionalidadesForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>

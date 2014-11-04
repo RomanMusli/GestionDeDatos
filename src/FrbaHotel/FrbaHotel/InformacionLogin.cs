@@ -8,11 +8,11 @@ namespace FrbaHotel
 {
     static class InformacionLogin
     {
-        private static Usuario _usuarioVar;
+        private static Usuario _usuarioDeSesion;
 
-        public static Usuario UsuarioVar{
-            get { return _usuarioVar; }
-            set { _usuarioVar = value; }
+        public static Usuario UsuarioDeSesion{
+            get { return _usuarioDeSesion; }
+            set { _usuarioDeSesion = value; }
         }
     }
 }
